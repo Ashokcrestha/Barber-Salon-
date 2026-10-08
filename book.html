@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+
+
+<head>
+    <title>ClassicCuts - Barbershop Website Template</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="ClassicCuts - Barbershop Website Template" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb" >
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+    <style>
+        #logo, #logo a, #logo span { display:flex !important; visibility:visible !important; opacity:1 !important; }
+        #logo a { text-decoration:none !important; align-items:center; gap:10px; }
+    </style>
+</head>
+
+<body class="dark-scheme">
+    <div id="wrapper">
+        
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+                <!-- header begin -->
+        <header class="header-center transparent" id="myHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo" style="display:block!important;visibility:visible!important;opacity:1!important;">
+                                    <a href="index.html" style="text-decoration:none!important;display:flex!important;align-items:center;gap:10px;padding:6px 0;">
+                                        <span style="display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:#d4af37;border-radius:8px;font-size:18px;flex-shrink:0;">&#9986;</span>
+                                        <span style="font-size:22px;font-weight:900;font-family:Georgia,serif;color:#ffffff;letter-spacing:0px;line-height:1;">Classic<span style="color:#d4af37;">Cut</span></span>
+                                    </a>
+                                </div>
+                                <!-- logo close -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu" class="s2">
+                                    <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="services.html">Services</a></li>
+                                    <li><a class="menu-item" href="about.html">About Us</a></li>
+                                    <li><a class="menu-item" href="team.html">Our Team</a></li>
+                                    <li><a class="menu-item" href="gallery.html">Gallery</a></li>
+                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="book.html" class="btn-main me-2" style="padding: 8px 20px; font-size: 14px; background-color: #d4af37; color: #000; font-weight: 700;"><i class="fa fa-calendar me-1"></i> Book Now</a>
+                                    <a href="login.php" class="btn-main me-2" style="padding: 8px 20px; font-size: 14px;"><i class="fa fa-sign-in me-1"></i> Login</a><a href="staff-register.php" class="btn-main" style="padding: 8px 20px; font-size: 14px; background-color: transparent; border: 1px solid #d4af37; color: #d4af37;"><i class="fa fa-user-plus me-1"></i> Register</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <!-- section begin -->
+            <section id="subheader" class="jarallax">
+                <img src="images/background/6.jpg" class="jarallax-img" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3 text-center">
+                            <h1>Booking</h1>
+                            <div class="de-separator"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="de-gradient-edge-bottom"></div>
+            </section>
+            <!-- section close -->
+
+            <section id="section-form" class="no-top">
+                    <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-10 offset-md-1">
+                            <form name="contactForm" id='contact_form' class="form-border" method="post">
+                                <div id="step-1" class="row">
+                                    <h3 class="s2">Choose Services</h3>
+
+                                    <div class="row">
+                                        <div class="col-xl-3 col-lg-6">
+                                            <div class="sc-group">
+                                                <h5>Haircuts</h5>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Haircuts" id="s_a1" value="Regular Haircut" data-price="375">
+                                                  <label for="s_a1">Regular Haircut <span class="text-warning font-weight-bold">(Rs. 375)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Haircuts" id="s_a2" value="Scissors Haircut" data-price="400">
+                                                  <label for="s_a2">Scissors Haircut <span class="text-warning font-weight-bold">(Rs. 400)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Haircuts" id="s_a3" value="Kids Haircut" data-price="350">
+                                                  <label for="s_a3">Kids Haircut <span class="text-warning font-weight-bold">(Rs. 350)</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-3 col-lg-6">
+                                            <div class="sc-group">
+                                                <h5>Shave</h5>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Shave" id="s_b1" value="Head Shave" data-price="275">
+                                                  <label for="s_b1">Head Shave <span class="text-warning font-weight-bold">(Rs. 275)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Shave" id="s_b2" value="Royal Shave" data-price="330">
+                                                  <label for="s_b2">Royal Shave <span class="text-warning font-weight-bold">(Rs. 330)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Shave" id="s_b3" value="Royal Head Shave" data-price="330">
+                                                  <label for="s_b3">Royal Head Shave <span class="text-warning font-weight-bold">(Rs. 330)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Shave" id="s_b4" value="Beard Trim No Shave" data-price="350">
+                                                  <label for="s_b4">Beard Trim No Shave <span class="text-warning font-weight-bold">(Rs. 350)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Shave" id="s_b5" value="Beard Trim Shave" data-price="350">
+                                                  <label for="s_b5">Beard Trim Shave <span class="text-warning font-weight-bold">(Rs. 350)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services" id="s_b6" value="Beard Shave Up" data-price="350">
+                                                  <label for="s_b6">Beard Shave Up <span class="text-warning font-weight-bold">(Rs. 350)</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-3 col-lg-6">
+                                            <div class="sc-group">
+                                                <h5>Facial</h5>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Facial" id="s_c1" value="Deep Pore Cleansing" data-price="500">
+                                                  <label for="s_c1">Deep Pore Cleansing <span class="text-warning font-weight-bold">(Rs. 500)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Facial" id="s_c2" value="Aromatherapy Facial" data-price="450">
+                                                  <label for="s_c2">Aromatherapy Facial <span class="text-warning font-weight-bold">(Rs. 450)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Facial" id="s_c3" value="Acne Problem Facial" data-price="600">
+                                                  <label for="s_c3">Acne Problem Facial <span class="text-warning font-weight-bold">(Rs. 600)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Facial" id="s_c4" value="European Facial" data-price="500">
+                                                  <label for="s_c4">European Facial <span class="text-warning font-weight-bold">(Rs. 500)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Facial" id="s_c5" value="Glycolic Peel Facial" data-price="350">
+                                                  <label for="s_c5">Glycolic Peel Facial <span class="text-warning font-weight-bold">(Rs. 350)</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-3 col-lg-6">
+                                            <div class="sc-group">
+                                                <h5>Package</h5>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Package" id="s_d1" value="Haircut + Shave" data-price="500">
+                                                  <label for="s_d1">Haircut + Shave <span class="text-warning font-weight-bold">(Rs. 500)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Package" id="s_d2" value="Haircut + Beard Trim" data-price="500">
+                                                  <label for="s_d2">Haircut + Beard Trim <span class="text-warning font-weight-bold">(Rs. 500)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Package" id="s_d3" value="Haircut + Beard Trim Shave" data-price="550">
+                                                  <label for="s_d3">Haircut + Beard Trim Shave <span class="text-warning font-weight-bold">(Rs. 550)</span></label>
+                                                </div>
+                                                <div class="form-group">
+                                                  <input type="checkbox" name="Services Package" id="s_d4" value="Haircut + Beard Shape Up" data-price="600">
+                                                  <label for="s_d4">Haircut + Beard Shape Up <span class="text-warning font-weight-bold">(Rs. 600)</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-12 mt-3 mb-2 p-3 border border-warning rounded text-end" style="background-color: #1e1e1e;">
+                                        <h4 class="mb-0 text-light">Total Calculated Price: <span class="text-warning fw-bold fs-3" id="total-price-display">Rs. 0</span></h4>
+                                    </div>
+
+                                    <div class="spacer-single"></div>
+
+                                    <!-- step 2 -->
+
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-sm-30">
+                                            <h3 class="s2">Choose Staff</h3>
+
+                                            <div class="de_form de_radio" id="book-staff-radios">
+                                                <!-- Loaded dynamically via api_staff.php -->
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <h3 class="s2">Select Date</h3>
+                                            <input type="date" name="date" id="date" class="form-control" min="1997-01-01" required />
+                                            <div class="spacer-single"></div>
+                                            <h3 class="s2">Select Time</h3>
+                                            <div class="custom_radio">
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_8AM" value="8:00 AM" name="select_time" checked><label for="choose_8AM">8:00 AM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_9AM" value="9:00 AM" name="select_time"><label for="choose_9AM">9:00 AM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_10AM" value="10:00 AM" name="select_time"><label for="choose_10AM">10:00 AM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_11AM" value="11:00 AM" name="select_time"><label for="choose_11AM">11:00 AM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_12AM" value="12:00 AM" name="select_time"><label for="choose_12AM">12:00 AM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_1PM" value="1:00 PM" name="select_time"><label for="choose_1PM">1:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_2PM" value="2:00 PM" name="select_time"><label for="choose_2PM">2:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_3PM" value="2:00 PM" name="select_time"><label for="choose_3PM">2:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_4PM" value="3:00 PM" name="select_time"><label for="choose_4PM">3:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_5PM" value="4:00 PM" name="select_time"><label for="choose_5PM">4:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_6PM" value="5:00 PM" name="select_time"><label for="choose_6PM">5:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_7PM" value="6:00 PM" name="select_time"><label for="choose_7PM">6:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_8PM" value="7:00 PM" name="select_time"><label for="choose_8PM">7:00 PM</label>
+                                              </div>
+                                              <div class="radio-opt">
+                                                  <input type="radio" id="choose_9PM" value="8:00 PM" name="select_time"><label for="choose_9PM">8:00 PM</label>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="spacer-single"></div>
+
+                                    <div class="row">
+                                        <h3 class="s2">Your details</h3>
+
+
+                                        <div class="col-lg-6">
+                                            <div id='name_error' class='error'>Please enter your name.</div>
+                                            <div class="mb25">
+                                                <input type='text' name='Name' id='name' class="form-control" placeholder="Your Name" required>
+                                            </div>
+
+                                            <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                            <div class="mb25">
+                                                <input type='email' name='Email' id='email' class="form-control" placeholder="Your Email" required>
+                                            </div>
+
+                                            <div id='phone_error' class='error'>Please enter your phone number.</div>
+                                            <div class="mb25">
+                                                <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div id='message_error' class='error'>Please enter your message.</div>
+                                            <div>
+                                                <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 mt-4">
+                                            <h3 class="s2">Select Payment Method</h3>
+                                            <div class="row mb-4">
+                                                <div class="col-md-4 mb-3">
+                                                    <div class="p-3 border border-secondary rounded text-start" style="background-color: #1e1e1e; cursor: pointer;" onclick="selectPaymentMethod('Cash')">
+                                                        <input type="radio" name="payment_method" id="pay_cash" value="Cash" checked style="transform: scale(1.3); margin-right: 8px;">
+                                                        <label for="pay_cash" class="fw-bold text-light mb-0" style="cursor: pointer;">
+                                                            💵 Cash Payment (Pay at Salon)
+                                                        </label>
+                                                        <p class="text-muted small mb-0 mt-1">Pay with cash when you visit our barbershop.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mb-3">
+                                                    <div class="p-3 border border-secondary rounded text-start" style="background-color: #1e1e1e; cursor: pointer;" onclick="selectPaymentMethod('eSewa')">
+                                                        <input type="radio" name="payment_method" id="pay_esewa" value="eSewa" style="transform: scale(1.3); margin-right: 8px;">
+                                                        <label for="pay_esewa" class="fw-bold text-success mb-0" style="cursor: pointer;">
+                                                            📱 eSewa Mobile Wallet
+                                                        </label>
+                                                        <p class="text-muted small mb-0 mt-1">Scan QR or send payment to Admin eSewa ID.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 mb-3">
+                                                    <div class="p-3 border border-secondary rounded text-start" style="background-color: #1e1e1e; cursor: pointer;" onclick="selectPaymentMethod('Bank Transfer')">
+                                                        <input type="radio" name="payment_method" id="pay_bank" value="Bank Transfer" style="transform: scale(1.3); margin-right: 8px;">
+                                                        <label for="pay_bank" class="fw-bold text-info mb-0" style="cursor: pointer;">
+                                                            🏦 Bank Transfer / Mobile Banking
+                                                        </label>
+                                                        <p class="text-muted small mb-0 mt-1">Direct deposit to Admin Nabil Bank account.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Digital Payment Details Box -->
+                                            <div id="digital-payment-info" class="p-4 rounded border border-warning mb-4" style="background-color: #1a1a1a; display: none;">
+                                                <div class="row align-items-center">
+                                                    <div class="col-md-4 text-center mb-3 mb-md-0 border-end border-secondary pe-md-4">
+                                                        <div class="bg-white p-3 rounded d-inline-block shadow-sm">
+                                                            <svg width="150" height="150" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="200" height="200" fill="#ffffff" />
+                                                                <rect x="15" y="15" width="50" height="50" fill="#000" />
+                                                                <rect x="23" y="23" width="34" height="34" fill="#fff" />
+                                                                <rect x="31" y="31" width="18" height="18" fill="#60bb46" />
+                                                                
+                                                                <rect x="135" y="15" width="50" height="50" fill="#000" />
+                                                                <rect x="143" y="23" width="34" height="34" fill="#fff" />
+                                                                <rect x="151" y="31" width="18" height="18" fill="#60bb46" />
+                                                                
+                                                                <rect x="15" y="135" width="50" height="50" fill="#000" />
+                                                                <rect x="23" y="143" width="34" height="34" fill="#fff" />
+                                                                <rect x="31" y="151" width="18" height="18" fill="#60bb46" />
+                                                                
+                                                                <rect x="75" y="20" width="15" height="15" fill="#1e3246" />
+                                                                <rect x="95" y="20" width="25" height="15" fill="#60bb46" />
+                                                                <rect x="75" y="45" width="20" height="20" fill="#1e3246" />
+                                                                <rect x="100" y="45" width="20" height="10" fill="#000" />
+                                                                <rect x="20" y="75" width="30" height="15" fill="#60bb46" />
+                                                                <rect x="60" y="75" width="20" height="20" fill="#000" />
+                                                                <rect x="90" y="70" width="30" height="30" fill="#1e3246" />
+                                                                <rect x="130" y="75" width="20" height="15" fill="#60bb46" />
+                                                                <rect x="160" y="75" width="20" height="25" fill="#000" />
+                                                                <rect x="75" y="110" width="25" height="20" fill="#60bb46" />
+                                                                <rect x="110" y="110" width="20" height="20" fill="#000" />
+                                                                <rect x="140" y="110" width="40" height="15" fill="#1e3246" />
+                                                                <rect x="75" y="140" width="15" height="40" fill="#000" />
+                                                                <rect x="100" y="150" width="30" height="25" fill="#60bb46" />
+                                                                <rect x="140" y="140" width="25" height="35" fill="#1e3246" />
+
+                                                                <rect x="70" y="84" width="60" height="32" rx="4" fill="#60bb46" />
+                                                                <text x="100" y="104" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">eSewa/QR</text>
+                                                            </svg>
+                                                        </div>
+                                                        <div class="mt-2 text-warning fw-bold small"><i class="fa fa-qrcode me-1"></i> Scan QR Code to Pay</div>
+                                                    </div>
+
+                                                    <div class="col-md-8 ps-md-4 text-start">
+                                                        <div id="esewa-details">
+                                                            <h4 class="text-success mb-2"><i class="fa fa-mobile-phone me-2"></i>Admin eSewa Payment Details</h4>
+                                                            <div class="mb-2"><strong class="text-light">eSewa ID / Mobile Number:</strong> <span class="badge bg-success text-white ms-2" style="font-size: 14px !important;">9801234567</span></div>
+                                                            <div class="mb-2"><strong class="text-light">Account Holder Name:</strong> <span class="text-warning font-weight-bold">ClassicCuts Barbershop</span></div>
+                                                            <p class="text-muted small mb-3">Please pay the total amount via eSewa and enter your Transaction Reference Code below.</p>
+                                                        </div>
+
+                                                        <div id="bank-details" style="display: none;">
+                                                            <h4 class="text-info mb-2"><i class="fa fa-university me-2"></i>Admin Bank Account Details</h4>
+                                                            <div class="mb-1"><strong class="text-light">Bank Name:</strong> <span class="text-warning">Nabil Bank Ltd.</span></div>
+                                                            <div class="mb-1"><strong class="text-light">Account Holder Name:</strong> <span class="text-warning font-weight-bold">ClassicCuts Barbershop Pvt. Ltd.</span></div>
+                                                            <div class="mb-1"><strong class="text-light">Account Number:</strong> <span class="badge bg-info text-dark ms-2" style="font-size: 14px !important;">01201017500012</span></div>
+                                                            <div class="mb-2"><strong class="text-light">Branch Name:</strong> <span class="text-light">Kalanki Chowk, Kathmandu</span></div>
+                                                            <p class="text-muted small mb-3">Please transfer the total amount via Mobile Banking / Bank Deposit and enter your Txn ID / Ref Code below.</p>
+                                                        </div>
+
+                                                        <div class="form-group mb-0">
+                                                            <label for="txn_id" class="text-warning fw-bold mb-1">Transaction Reference Code / Txn ID</label>
+                                                            <input type="text" name="txn_id" id="txn_id" class="form-control" placeholder="e.g. eSewa Txn ID (9X82K...) or Bank Transfer Ref No." style="background-color: #2b2b2b; color: #fff; border: 1px solid #444;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 text-center">
+                                            <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" align="center"></div>
+                                            <p id='submit' class="mt20">
+                                                <input type='submit' id='send_message' value='Submit Form' class="btn-main">
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                            </form>
+
+                            <div id="success_message" class='success'>
+                                Your message has been sent successfully. Refresh this page if you want to send more messages.
+                            </div>
+                            <div id="error_message" class='error'>
+                                Sorry there was an error sending your form.
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+        </div>
+        <!-- content close -->
+        <a href="#" id="back-to-top"></a>
+        <!-- footer begin -->
+        
+        <footer>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 text-lg-start text-center">
+                        <div class="social-icons">
+                            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                            <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-lg-center text-center">
+                        <a href="index.html" style="text-decoration: none; color: #ffffff; font-weight: bold; font-size: 26px; font-family: sans-serif; display: inline-block; padding: 10px 0;">
+                            Classic✂️<span style="color: #d4af37;">Cut</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end text-center">
+                        <p>&copy; <span id="current-year"></span> ClassicCuts Studio. All Rights Reserved.</p>
+                        <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+        <!-- footer close -->
+    </div>
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main-app.js"></script>
+    <script src="form.js"></script>
+    <script>
+    function selectPaymentMethod(method) {
+        const cashRadio = document.getElementById('pay_cash');
+        const esewaRadio = document.getElementById('pay_esewa');
+        const bankRadio = document.getElementById('pay_bank');
+        const digitalInfo = document.getElementById('digital-payment-info');
+        const esewaDetails = document.getElementById('esewa-details');
+        const bankDetails = document.getElementById('bank-details');
+
+        if (method === 'Cash') {
+            if (cashRadio) cashRadio.checked = true;
+            if (digitalInfo) digitalInfo.style.display = 'none';
+        } else if (method === 'eSewa') {
+            if (esewaRadio) esewaRadio.checked = true;
+            if (digitalInfo) digitalInfo.style.display = 'block';
+            if (esewaDetails) esewaDetails.style.display = 'block';
+            if (bankDetails) bankDetails.style.display = 'none';
+        } else if (method === 'Bank Transfer') {
+            if (bankRadio) bankRadio.checked = true;
+            if (digitalInfo) digitalInfo.style.display = 'block';
+            if (esewaDetails) esewaDetails.style.display = 'none';
+            if (bankDetails) bankDetails.style.display = 'block';
+        }
+    }
+
+    function updateBookingTotalPrice() {
+        let total = 0;
+        const checkboxes = document.querySelectorAll('input[type="checkbox"][data-price]:checked');
+        checkboxes.forEach(cb => {
+            total += parseFloat(cb.getAttribute('data-price') || 0);
+        });
+        const display = document.getElementById('total-price-display');
+        if (display) {
+            display.textContent = 'Rs. ' + total.toLocaleString('en-US');
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        updateBookingTotalPrice();
+        document.addEventListener('change', function(e) {
+            if (e.target && e.target.matches('input[type="checkbox"][data-price]')) {
+                updateBookingTotalPrice();
+            }
+        });
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const preselectedStaff = urlParams.get('staff') || '';
+
+        fetch('api_staff.php')
+            .then(res => res.json())
+            .then(data => {
+                if (data.result === 'success' && data.staff && data.staff.length > 0) {
+                    const container = document.getElementById('book-staff-radios');
+                    if (!container) return;
+                    container.innerHTML = '';
+                    
+                    data.staff.forEach((staff, index) => {
+                        const isChecked = (preselectedStaff && preselectedStaff.toLowerCase() === staff.name.toLowerCase()) || (!preselectedStaff && index === 0);
+                        const radioId = 'radio-staff-' + staff.id;
+                        
+                        const div = document.createElement('div');
+                        div.className = 'radio-img mb-3 p-3 rounded border border-secondary text-start';
+                        div.style.backgroundColor = '#1e1e1e';
+                        div.style.cursor = 'pointer';
+                        
+                        div.innerHTML = `
+                            <div class="d-flex align-items-center gap-3">
+                                <input id="${radioId}" name="Staff" type="radio" value="${staff.name}" ${isChecked ? 'checked="checked"' : ''} style="transform: scale(1.3); margin-right: 5px;">
+                                <label for="${radioId}" class="d-flex align-items-center gap-3 w-100 mb-0" style="cursor: pointer;">
+                                    <img src="${staff.photo}" class="rounded-circle border border-warning" style="width: 60px; height: 60px; object-fit: cover; flex-shrink: 0;" alt="${staff.name}">
+                                    <div>
+                                        <h5 class="mb-1 text-light">${staff.name} <span class="badge bg-warning text-dark ms-2 fs-6" style="font-size: 11px !important;">${staff.role}</span></h5>
+                                        <small class="text-warning d-block"><strong>Experience:</strong> ${staff.experience_years} Years</small>
+                                        <small class="text-muted d-block mt-1"><em>${staff.bio}</em></small>
+                                    </div>
+                                </label>
+                            </div>
+                        `;
+                        container.appendChild(div);
+                    });
+                }
+            })
+            .catch(err => console.error("Error loading staff options for booking:", err));
+    });
+    </script>
+    <script type="text/javascript">     
+        jQuery(function($){     
+            $( '.g-recaptcha' ).attr( 'data-theme', 'dark' );     
+        });     
+    </script>
+    <script>
+        // Force logo always visible
+        (function keepLogoVisible() {
+            var logo = document.getElementById("logo");
+            if (logo) {
+                logo.style.cssText += ";display:block!important;visibility:visible!important;opacity:1!important;";
+                var a = logo.querySelector("a");
+                if (a) a.style.cssText += ";display:flex!important;visibility:visible!important;opacity:1!important;";
+            }
+        })();
+        window.addEventListener("scroll", function() {
+            var logo = document.getElementById("logo");
+            if (logo) {
+                logo.style.cssText += ";display:block!important;visibility:visible!important;opacity:1!important;";
+                var a = logo.querySelector("a");
+                if (a) a.style.cssText += ";display:flex!important;visibility:visible!important;opacity:1!important;";
+            }
+        });
+    </script>
+</body>
+
+
+
+</html>
